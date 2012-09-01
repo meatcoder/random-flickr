@@ -18,7 +18,7 @@ configure do
 end
 
 get '/' do
-  "Hello, world"
+  "Meow!"
 end
 
 get '/random' do
