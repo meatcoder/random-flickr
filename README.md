@@ -10,6 +10,12 @@ It also has a url that returns a random image url instead of an html page:
 
 This is mainly for consumption by other web apps, services or a mobile or desktop app. I currently use it to implement a [hubot](http://hubot.github.com) script that returns random picture of my cat in response to a phrase. That script was inspired by the default pug me hubot script.
 
+It is also possible to add optional parameters to the above urls to specify a specific flickr user or tag. They take the form:
+
+	http://maome.herokuapp.com/randompic/$FLICKR_USER_ID/$TAG
+	
+Just replace $FLICKR_USER_ID and $TAG with their actual values.
+
 ## Install
 
 The repository is easily deployed to any server that will run sinatra. The dependencies are listed in the Gemfile and thus can be automatically installed if you use [bundler](http://gembundler.com). Just do a:
