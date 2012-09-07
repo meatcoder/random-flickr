@@ -1,3 +1,4 @@
 task :default do 
-  load './test.rb'
+  $LOAD_PATH << File.dirname(__FILE__)
+  require 'test'
 end
