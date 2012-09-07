@@ -1,7 +1,9 @@
 source :rubygems
-gem 'flickraw'
+gem 'thin'
 gem 'json'
 gem 'sinatra', '1.1.0'
-gem 'thin'
-gem 'rake'
-gem 'rack-test'
+gem 'flickraw'
+
+group :test do
+  gem 'rack-test'
+end

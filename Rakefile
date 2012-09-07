@@ -1,4 +1,11 @@
 task :default do 
-  $LOAD_PATH << File.dirname(__FILE__)
-  require 'test'
+  require 'rubygems'
+  require 'bundler'
+  Bundler.require(:default, :test)
+  
+  require './web'
+  require 'test/unit'
+  require './test'
+  
+  ENV['RACK_ENV'] = 'test'
 end

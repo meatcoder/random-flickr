@@ -1,6 +1,3 @@
-require 'sinatra'
-require 'flickraw'
-
 def random_pic_url(user_id = nil, tag = nil)
   FlickRaw.api_key = ENV['FLICKR_API_KEY']
   FlickRaw.shared_secret = ENV['FLICKR_SHARED_SECRET']

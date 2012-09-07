@@ -1,9 +1,3 @@
-require 'web'
-require 'test/unit'
-require 'rack/test'
-
-ENV['RACK_ENV'] = 'test'
-
 class MyAppTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
