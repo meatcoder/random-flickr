@@ -1,4 +1,4 @@
-# random-flickr
+# random-flickr [<img src="https://secure.travis-ci.org/meatcoder/random-flickr.png" />](http://travis-ci.org/meatcoder/random-flickr)
 
 A simple [sinatra](http://www.sinatrarb.com) web app that returns random flickr pics with a certain tag and from a particular user. I wrote it for my own amusement, as I wanted a url that when repeatedly refreshed will show different random pictures of my cat. Just something to cheer me up when I'm feeling down. You can see it deployed and in action here:
 
