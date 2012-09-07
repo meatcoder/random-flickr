@@ -6,6 +6,9 @@ GEM
     flickraw (0.9.6)
     json (1.7.5)
     rack (1.4.1)
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rake (0.8.3)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
@@ -21,5 +24,7 @@ PLATFORMS
 DEPENDENCIES
   flickraw
   json
+  rack-test
+  rake
   sinatra (= 1.1.0)
   thin
