@@ -1,3 +1,3 @@
 task :default do 
-  require 'test'
+  load './test.rb'
 end
