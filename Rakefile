@@ -1,9 +1,11 @@
 task :default do 
   require 'rubygems'
   require 'bundler'
-  Bundler.require(:default, :test)
+  Bundler.require(:default)
   
   require './web'
+  
+  Bundler.require(:test)
   require 'test/unit'
   require './test'
   

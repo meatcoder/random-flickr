@@ -5,6 +5,5 @@ gem 'sinatra', '1.1.0'
 gem 'flickraw'
 
 group :test do
-  gem 'rack'
-  gem 'rack-test'
+  gem 'rack-test', :require => 'rack/test'
 end
