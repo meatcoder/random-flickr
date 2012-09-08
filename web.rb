@@ -31,7 +31,7 @@ get '/' do
   "Meow!"
 end
 
-get '/random' do
+get '/random/?:user_id?/?:tag?' do
   url = random_pic_url(params[:user_id], params[:tag])
   if (url)
     url
