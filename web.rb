@@ -31,19 +31,19 @@ get '/' do
   "Meow!"
 end
 
-get '/random/?:user_id?/?:tag?' do
+get '/randompic/?:user_id?/?:tag?' do
   url = random_pic_url(params[:user_id], params[:tag])
   if (url)
-    url
+    "<img src=\"#{url}\">"
   else
     [404,"no pics found"]
   end
 end
 
-get '/randompic/?:user_id?/?:tag?' do
+get '/random/?:user_id?/?:tag?' do
   url = random_pic_url(params[:user_id], params[:tag])
   if (url)
-    "<img src=\"#{url}\">"
+    url
   else
     [404,"no pics found"]
   end

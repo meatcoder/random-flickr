@@ -7,6 +7,16 @@ class MyAppTest < Test::Unit::TestCase
 
   def test_home
     get '/'
-    assert_equal 'Meow!', last_response.body
+    assert_match /Meow\!/, last_response.body
+  end
+  
+  #unfinished test
+  def test_random
+    #setup request
+    photos = mock()
+    photos.expects(:search)
+    
+    #actual request
+    get '/random'
   end
 end

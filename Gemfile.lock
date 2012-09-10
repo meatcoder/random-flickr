@@ -7,6 +7,9 @@ GEM
     flickraw (0.9.6)
     json (1.7.5)
     json (1.7.5-java)
+    metaclass (0.0.1)
+    mocha (0.12.4)
+      metaclass (~> 0.0.1)
     rack (1.4.1)
     rack-test (0.6.1)
       rack (>= 1.0)
@@ -27,6 +30,7 @@ PLATFORMS
 DEPENDENCIES
   flickraw
   json
+  mocha
   rack-test
   rake
   sinatra (= 1.1.0)

@@ -7,4 +7,5 @@ gem 'flickraw'
 group :test do
   gem 'rake'
   gem 'rack-test', :require => 'rack/test'
+  gem 'mocha', :require => false
 end
