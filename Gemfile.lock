@@ -7,7 +7,7 @@ GEM
     flickraw (0.9.9)
     json (2.1.0)
     json (2.1.0-java)
-    rack (1.6.11)
+    rack (1.6.12)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rake (12.3.2)
