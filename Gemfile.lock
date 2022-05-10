@@ -7,6 +7,7 @@ GEM
     flickraw (0.9.9)
     json (2.3.0)
     json (2.3.0-java)
+    mocha (1.14.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     rack (2.2.3)
@@ -33,7 +34,7 @@ PLATFORMS
 
 DEPENDENCIES
   flickraw
-  json
+  json (>= 2.3.0)
   mocha
   rack-test
   rake

@@ -1,6 +1,6 @@
 source :rubygems
 gem 'thin'
-gem 'json'
+gem "json", ">= 2.3.0"
 gem 'sinatra', '2.2.0'
 gem 'flickraw'
 
