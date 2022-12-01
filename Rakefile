@@ -6,7 +6,6 @@ task :default do
   require './web'
   
   Bundler.require(:test)
-  require 'test/unit'
   require 'mocha'
   require './test'
   
