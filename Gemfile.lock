@@ -5,9 +5,10 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-java)
     flickraw (0.9.9)
+    hoe (3.26.0)
+      rake (>= 0.8, < 15.0)
     json (2.3.0)
     json (2.3.0-java)
-    mocha (1.14.0)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     rack (2.2.4)
@@ -22,6 +23,8 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.2.3)
       tilt (~> 2.0)
+    test-unit (1.2.3)
+      hoe (>= 1.5.1)
     thin (1.7.2)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -35,10 +38,10 @@ PLATFORMS
 DEPENDENCIES
   flickraw
   json (>= 2.3.0)
-  mocha
   rack-test
   rake
   sinatra (= 2.2.3)
+  test-unit (= 1.2.3)
   thin
 
 BUNDLED WITH

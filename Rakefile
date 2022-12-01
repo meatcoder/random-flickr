@@ -7,7 +7,6 @@ task :default do
   
   Bundler.require(:test)
   require 'test/unit'
-  require 'mocha'
   require './test'
   
   ENV['RACK_ENV'] = 'test'
