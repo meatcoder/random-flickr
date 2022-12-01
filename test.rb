@@ -10,13 +10,7 @@ class MyAppTest < Test::Unit::TestCase
     assert_match /Meow\!/, last_response.body
   end
   
-  #unfinished test
   def test_random
-    #setup request
-    photos = mock()
-    photos.expects(:search)
-    
-    #actual request
     get '/random'
   end
 end
