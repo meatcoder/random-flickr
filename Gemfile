@@ -1,7 +1,6 @@
-source :rubygems
-gem 'thin'
+source 'http://rubygems.org'
 gem "json", ">= 2.3.0"
-gem 'sinatra', '2.2.3'
+gem "sinatra", ">= 4.1.0"
 gem 'flickraw'
 
 group :test do
