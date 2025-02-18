@@ -6,5 +6,5 @@ gem 'flickraw'
 group :test do
   gem 'rake'
   gem 'rack-test', :require => 'rack/test'
-  gem "test-unit", "1.2.3"
+  gem "test-unit", "3.6.7"
 end
