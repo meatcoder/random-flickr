@@ -6,7 +6,7 @@ class MyAppTest < Test::Unit::TestCase
   end
 
   def test_home
-    get '/'
+    get '/', 'HTTP_HOST' => 'localhost'
     assert_match /Meow\!/, last_response.body
   end
   
