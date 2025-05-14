@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 gem "json", ">= 2.3.0"
 gem "sinatra", ">= 4.1.0"
 gem 'flickraw'
